@@ -1,0 +1,17 @@
+.experts-menu-title{
+    text-align: center;
+    padding-bottom: 52px;
+    font-weight: 600;
+    font-size: 75px;
+}
+.experts-menu-image{
+    width: 100%;
+    padding-bottom: 100px ;
+}
+.experts-list-title{
+    background: url("../image/experts__bg.png") center/cover no-repeat;
+    padding: 389px 0 276px ;
+    font-weight: 600;
+    font-size: 70px;
+    text-align: center;
+}

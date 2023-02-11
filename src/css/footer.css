@@ -1,0 +1,73 @@
+.footer-menu{
+    display: flex;
+    flex-direction: column;
+}
+.footer-menu-logo{
+    text-align: center;
+    padding-top: 200px;
+}
+.footer-menu-title{
+    font-weight: 700;
+    font-size: 100px;
+    text-align: center;
+}
+.footer-menu-subtitle{
+    font-weight: 400;
+    font-size: 43px;
+    text-align: center;
+}
+.footer-menu-btns{
+    padding: 14px 0 26px;
+    text-align: center;
+}
+
+.footer-menu-btn{
+    font-weight: 600;
+    font-size: 30px;
+    padding: 29px 112px;
+    background: #326CF9;
+    border-radius: 15px;
+}
+
+.footer-menu-text{
+    font-weight: 700;
+    font-size: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.desc{
+    font-weight: 400;
+    font-size: 38px;
+    color: #707070;
+}
+.footer-adress{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-adress-menu-title{
+    padding: 184px 0 0 140px;
+    font-weight: 800;
+    font-size: 42px;
+}
+.footer-adress-menu-text{
+    font-weight: 400;
+    font-size: 27px;
+    color: #707070;
+    padding-left: 140px;
+}
+.footer-adress-links{
+    display: flex;
+    column-gap: 49px;
+    padding: 184px 140px 0 0;
+}
+.footer-adress-links-link{
+    font-weight: 500;
+    font-size: 28px;
+    color: #707070;
+    padding-bottom: 133px;
+}
+.link{
+    color: #326DF9;
+}
+

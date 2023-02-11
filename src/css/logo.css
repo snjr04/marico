@@ -1,0 +1,80 @@
+.logo-menu{
+    display: flex;
+    column-gap: 23px;
+    padding: 0 95px;
+}
+
+.logo-left{
+    width: 854px;
+    height: 666px;
+    background: #0D0D0D;
+    z-index: 2;
+    padding-left: 25px;
+
+
+}
+.logo-right{
+    width: 854px;
+    height: 666px;
+    background: #0D0D0D;
+    z-index: 2;
+    padding-left: 25px;
+}
+
+.logo-link{
+    font-weight: 400;
+    font-size: 30px;
+    color: #0FC65C;
+    padding-top: 33px ;
+}
+
+
+.logo-title-left{
+    font-weight: 600;
+    font-size: 80px;
+    color: #919191;
+    padding-top: 24px;
+}
+
+.logo-title{
+    padding-top: 24px;
+    font-weight: 600;
+    font-size: 80px;
+
+}
+
+.logo-logo{
+    padding: 84px 0 0 42px;
+}
+.logo-subtitle-right{
+    font-weight: 700;
+    font-size: 80px;
+    color: #919191;
+}
+
+.logo-subtitle{
+    padding-top: 96px;
+    font-weight: 700;
+    font-size: 80px;
+}
+
+.logo-btn{
+    font-weight: 500;
+    font-size: 20px;
+    background: #326CF9;
+    padding: 22px 83px;
+    border-radius: 15px;
+}
+
+.logo-btns{
+    text-align: center;
+    padding-top: 49px;
+}
+
+
+@media (max-width: 1300px) {
+    .logo-right{
+        display: none;
+    }
+
+}

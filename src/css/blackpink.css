@@ -1,0 +1,98 @@
+.blackpink-menu-text{
+    text-align: center;
+    padding-top: 189px;
+    font-weight: 500;
+    font-size: 25px;
+    color: #3D82F2;
+}
+.blackpink-menu-title{
+    text-align: center;
+    font-weight: 500;
+    font-size: 75px;
+}
+.blackpink-menu-desc{
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 45px;
+    text-align: center;
+    color: #707070;
+    padding-bottom: 189px;
+}
+.blackpink-list{
+    display: flex;
+    column-gap: 192px;
+}
+.blackpink-list-left{
+}
+.blackpink-list-subtitle{
+    font-weight: 500;
+    font-size: 30px;
+    padding-left:180px;
+}
+.blackpink-list-title{
+    font-weight: 600;
+    font-size: 75px;
+    line-height: 112px;
+    padding: 80px 0 29px 180px;
+}
+.blue{
+    color: #326CF9;
+}
+.blackpink-list-text{
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 34px;
+    padding-left:180px;
+
+}
+.blackpink-list-btns{
+    display: flex;
+    column-gap: 24px;
+    padding: 66px 0 190px 181px;
+}
+.blackpink-list-btn{
+    font-weight: 500;
+    font-size: 20px;
+    padding: 18px 22px;
+    background: #326CF9;
+    border-radius: 15px;
+}
+.none{
+    padding: 17px 36px;
+    background: rgba(112, 112, 112, .2);
+    border: 1px solid #707070;
+    color: #707070;
+}
+.blackpink-list-left{
+    position: absolute;
+    right: 0;
+}
+
+
+@media (max-width: 1700px) {
+    .blackpink-list-subtitle,.blackpink-list-title,.blackpink-list-text,.blackpink-list-btns{
+        padding: 10px 0 10px 200px;
+    }
+    .blackpink-list{
+        padding: 100px 0 900px 0;
+    }
+    .blackpink-list-right{
+        text-align: center;
+    }
+    .blackpink-list-left{
+        position: absolute;
+        top: 1500px;
+        right: 50% ;
+        transform: translateX(50%   );
+
+    }
+
+}
+
+@media (max-width: 900px) {
+    .blackpink-list-subtitle,.blackpink-list-title,.blackpink-list-text,.blackpink-list-btns{
+        padding: 10px 0 10px 20px;
+    }
+}

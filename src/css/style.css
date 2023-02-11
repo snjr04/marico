@@ -1,0 +1,29 @@
+@import "header.css";
+@import "subscribers.css";
+@import "creator.css";
+@import "content.css";
+@import "logo.css";
+@import "blackpink.css";
+@import 'experts.css';
+@import "footer.css";
+
+body{
+    margin: 0;
+    padding: 0;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+    transition: .5s all;
+    color: #FFFFFF;
+}
+.container{
+    max-width: 1920px;
+    margin: 0 auto;
+    background: black;
+    position: relative;
+}
